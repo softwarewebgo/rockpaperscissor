@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section {   
+    background-color: rgb(86, 46, 151);
+    padding: 5rem ;
+    color: #ffffff;   
+}
+
+div > div{
+    width: 80px;
+    height: 80px;
+    margin: 2rem;
+}
+
+section > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
